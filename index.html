@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head><meta charset="utf-8">
-<title>漢字にふりがな、furigana.js サンプル</title>
+<title>漢字にふりがな、furigana-es</title>
 <style>
 body {
   font-family: sans-serif;
@@ -29,19 +29,19 @@ section {
 }
 </style>
 <script type="module">
-import furigana from "https://ichigojam.github.io/furigana-js/furigana.mjs";
+import furigana from "https://ichigojam.github.io/furigana-es/furigana.mjs";
 window.onload = async () => await furigana.addRuby("kana.csv");
 </script>
 </head><body>
 
-<h1>漢字にふりがな、furigana.js</h1>
+<h1>漢字にふりがな、furigana-es</h1>
 
 <section id="main">
-漢字混じりの文章をるび付きHTMLに変換する <a href=https://github.com/ichigojam/frigana-js/>furigana.js</a>。<br>
+漢字混じりの文章をるび付きHTMLに変換する <a href=https://github.com/ichigojam/furigana-es/>furigana-es</a>。<br>
 漢字とかなの対応を書いた<a href=kana.csv>CSVファイル(utf-8)</a>を用意して、scriptタグを足すだけ、簡単！ (<a href=index.html>sample1</a>)<br>
 
 <p class=js>&lt;script type="module"&gt;
-import furigana from "https://ichigojam.github.io/furigana-js/furigana.mjs";
+import furigana from "https://ichigojam.github.io/furigana-es/furigana.mjs";
 window.onload = async () =&gt; await furigana.addRuby("kana.csv");
 &lt;/script&gt;
 </p>
@@ -50,8 +50,8 @@ window.onload = async () =&gt; await furigana.addRuby("kana.csv");
 
 <section>
 IchigoJamプリント作成例<br>
-- <a href=MATH3.html>四捨五入</a> (<a href=https://github.com/IchigoJam/furigana-js/blob/master/kana.csv>CSV</a>, <a href=https://github.com/IchigoJam/furigana-js/blob/master/MATH3.html>src on GitHub</a>)<br>
-- <a href=MULMASTER.html>かけざんマスター</a> (<a href=https://github.com/IchigoJam/furigana-js/blob/master/kana.csv>CSV</a>, <a href=https://github.com/IchigoJam/furigana-js/blob/master/MULMASTER.html>src on GitHub</a>)<br>
+- <a href=MATH3.html>四捨五入</a> (<a href=https://github.com/IchigoJam/furigana-es/blob/master/kana.csv>CSV</a>, <a href=https://github.com/IchigoJam/furigana-es/blob/master/MATH3.html>src on GitHub</a>)<br>
+- <a href=MULMASTER.html>かけざんマスター</a> (<a href=https://github.com/IchigoJam/furigana-es/blob/master/kana.csv>CSV</a>, <a href=https://github.com/IchigoJam/furigana-es/blob/master/MULMASTER.html>src on GitHub</a>)<br>
 </section>
 
 <section>
@@ -59,7 +59,7 @@ IchigoJamプリント作成例<br>
 </section>
 
 <div id="credit">
-  <a href="https://ichigojam.github.io/furigana-js/">furigana.js</a> (<a href=https://github.com/ichigojam/furigana-js>src on GitHub</a>)
+  <a href="https://ichigojam.github.io/furigana-es/">furigana-es</a> (<a href=https://github.com/ichigojam/furigana-es>src on GitHub</a>)
   <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY</a> <a href="https://ichigojam.net/">IchigoJam&reg; jig.jp</a>
 </div>
 </body></html>

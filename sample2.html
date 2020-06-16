@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head><meta charset="utf-8">
-<title>漢字にふりがな、furigana.js サンプル</title>
+<title>漢字にふりがな、furigana-es</title>
 <style>
 body {
   font-family: sans-serif;
@@ -26,7 +26,7 @@ a {
 }
 </style>
 <script type="module">
-import furigana from "https://ichigojam.github.io/furigana-js/furigana.mjs";
+import furigana from "https://ichigojam.github.io/furigana-es/furigana.mjs";
 window.onload = async () => {
   const makeRubyText = await furigana.getRubyConverter("kana.csv");
   main.innerHTML = makeRubyText(main.innerHTML);
@@ -34,12 +34,12 @@ window.onload = async () => {
 </script>
 </head><body>
 
-<h1>漢字にふりがな、furigana.js</h1>
+<h1>漢字にふりがな、furigana-es</h1>
 
 <section id="main">
 特定のタグ内のみ指定する方法
 <p class=js>&lt;script type="module"&gt;
-import furigana from "https://ichigojam.github.io/furigana-js/furigana.mjs";
+import furigana from "https://ichigojam.github.io/furigana-es/furigana.mjs";
 window.onload = async () =&gt; {
   const makeRubyText = await furigana.addRuby("kana.csv");
   main.innerHTML = makeRubyText(main.innerHTML);
@@ -50,6 +50,6 @@ window.onload = async () =&gt; {
 </section>
 
 <div id="credit">
-  <a href="https://ichigojam.github.io/furigana-js/">furigana.js</a> (<a href=https://github.com/ichigojam/furigana-js>src on GitHub</a>)
+  <a href="https://ichigojam.github.io/furigana-es/">furigana-es</a> (<a href=https://github.com/ichigojam/furigana-es>src on GitHub</a>)
   <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY</a> <a href="https://ichigojam.net/">IchigoJam&reg; jig.jp</a>
 </div>

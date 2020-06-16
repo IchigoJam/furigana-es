@@ -1,7 +1,7 @@
-# furigana-js
+# furigana-es
  
-![furigana.js](https://ichigojam.github.io/furigana-js/furigana-js.png)  
-https://ichigojam.github.io/furigana-js/  
+![furigana-es](https://ichigojam.github.io/furigana-es/furigana-es.png)  
+https://ichigojam.github.io/furigana-es/  
 
 IchigoJamプリントなど、ふりがな付きのドキュメント作成にどうぞ！  
 https://ichigojam.github.io/print/ja/  
